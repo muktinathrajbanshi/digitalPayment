@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-
 const Navbar = () => {
 
     const [show, setShow] = useState(false);
@@ -8,7 +7,7 @@ const Navbar = () => {
   return (
     <>
         <section className="navbar_bg">
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container">
             <a className="navbar-brand" href="#">MuktiPay</a>
             <button className="navbar-toggler" 
@@ -37,8 +36,8 @@ const Navbar = () => {
                 </li>
             </ul>
             <form className="d-flex">
-                <button className="btn btn-outline-success" type="submit">Sign Up</button>
-                <button className="btn btn-outline-success" type="submit">Login</button>
+                <button className="btn btn-style" type="submit">Sign Up</button>
+                <button className="btn btn-style btn-style-border" type="submit">Log in</button>
             </form>
             </div>
             </div>
