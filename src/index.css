@@ -143,11 +143,22 @@ header {
 
 .input-group-button {
   position: absolute;
-  right: 31%;
+  right: 26%;
   color: #fff;
-  top: -2%;
+  top: 5px;
   background-color: var(--primary-color);
   height: 4rem;
+  width: 15%;
+  border-radius: 2rem !important;
+  -webkit-border-radius: 2rem !important;
+  -moz-border-radius: 2rem !important;
+  -ms-border-radius: 2rem !important;
+  -o-border-radius: 2rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.3rem;
 }
 
 /* right side of hero section */
