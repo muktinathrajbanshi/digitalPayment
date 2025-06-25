@@ -96,6 +96,90 @@ h6 {
   text-transform: capitalize;
 }
 
+/* Navbar ends    */
+
+/* hero section starts    */
+
+header {
+  background-color: var(--bgcolor);
+  min-height: 100vh;
+}
+
+.main-hero-container {
+  height: 80vh;
+  display: flex;
+}
+
+.main-hero-container h1 {
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.main-hero-para {
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin: 3rem 0 5rem 0;
+  font-weight: lighter;
+  width: 75%;
+}
+
+.main-hero-container h3 {
+  font-weight: lighter;
+}
+
+.input-group {
+  position: relative !important;
+}
+
+.form-control-text {
+  position: absolute;
+  height: 5rem;
+  border: none;
+  outline-style: none;
+  padding-left: 1.5rem !important;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.input-group-button {
+  position: absolute;
+  right: 31%;
+  color: #fff;
+  top: -2%;
+  background-color: var(--primary-color);
+  height: 4rem;
+}
+
+/* right side of hero section */
+
+.main-herosection-images {
+  position: relative;
+}
+
+.main-herosection-images img {
+  width: 60%;
+  height: 75%;
+  margin-top: 10rem;
+  box-shadow: 0 0.8rem 0.8rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  position: absolute;
+}
+
+.main-herosection-images .main-hero-img2 {
+  position: absolute;
+  width: 40%;
+  height: 30%;
+  left: 55%;
+  top: -2%;
+  box-shadow: 0.8rem 0 0.8rem rgba(0, 0, 0, 0.25);
+}
+
+/* hero section ends    */
+
 /* responsive media queries */
 
 @media (min-width: 1500px) {

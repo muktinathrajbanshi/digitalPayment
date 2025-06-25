@@ -8,22 +8,23 @@ const Header = () => {
             <div className="row">
                 <div className="col-12 col-lg-6 header-left-side d-flex justify-content-center flex-column align-items-start">
                     <h1 className="display-2">Online Payment Made <br /> Easy For You.</h1>
-                    <p>
+                    <p className="main-hero-para">
                         hello this is one of the most important website for digital payment system through consumer to buyer and buyer to seller.
                         Most of the individuals today they used online transaction system. Thus this system is useful for everyone.
                     </p>
                     <h3>Get early access for you</h3>
                     <div className="input-group mt-3">
-                        <input type="text" className="rounded-pill w-75 me-3 p-2 form-control-text" />
-                        <div className="input-group-text">
+                        <input type="text" className="rounded-pill w-75 me-3 p-2 form-control-text"
+                        placeholder="Enter Your Email" />
+                        <div className="input-group-button">
                             Get it Now
                         </div>
                     </div>
                 </div>
                 {/* main header right */}
-                <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center">
-                    <img src="./images/hey.jpg" alt="heroimg" className="img-fluid" />
+                <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center main-herosection-images">
                     <img src="./images/dmark.jpg" alt="heroimg" className="img-fluid" />
+                    <img src="./images/hey.jpg" alt="heroimg" className="img-fluid main-hero-img2" />
                 </div>
             </div>
         </section>
