@@ -191,6 +191,56 @@ header {
 
 /* hero section ends    */
 
+/* Work Section starts */
+
+.work_container {
+  width: 80vw;
+  padding: 5rem;
+  box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.1);
+  margin-top: -10rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.work_container .main_heading {
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-bottom: 4rem;
+  word-spacing: 1rem;
+}
+
+.work_container_subdiv {
+  padding: 0 6rem;
+}
+
+.work_container .sub_heading {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.fontawesome_style {
+  font-size: 2.3rem;
+  color: var(--primary-color);
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: var(--bgcolor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+/* Work Section ends */
+
 /* responsive media queries */
 
 @media (min-width: 1500px) {

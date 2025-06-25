@@ -17,4 +17,6 @@ const workapi = [
         title: "Receive your funds",
         info: "Receive your funds quickly and securely with our trusted system, offering fast transactions, real-time tracking, and guaranteed delivery straight to your account."
     },
-]
+];
+
+export default workapi;
