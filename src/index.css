@@ -222,6 +222,13 @@ header {
   font-weight: normal;
 }
 
+.work_container .main_hero_para {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: var(--text-color);
+  font-weight: lighter;
+}
+
 .fontawesome_style {
   font-size: 2.3rem;
   color: var(--primary-color);
