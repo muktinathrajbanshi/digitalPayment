@@ -248,6 +248,49 @@ header {
 
 /* Work Section ends */
 
+/* About Us Section Starts */
+
+.our_services img {
+  width: 35%;
+  height: 85%;
+  margin-top: 10rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.8rem 0.8rem;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+}
+
+.our_services .mini_title {
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 3rem 0;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.our_services .main-heading {
+  font-weight: bolder;
+}
+
+.our_services_info {
+  margin-top: 4rem;
+}
+
+.our_services .our_services_number {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+/* About Us Section Ends */
+
 /* responsive media queries */
 
 @media (min-width: 1500px) {
