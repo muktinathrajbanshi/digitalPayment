@@ -1,4 +1,4 @@
-const howToUse = [
+const howToUseApp = [
     {
         id:1,
         title: "Sign in",
@@ -15,4 +15,6 @@ const howToUse = [
         info: "Send a payment request to receive money quickly and securely. Customize the amount, add notes, and track the status directly from your account dashboard.",
     },
 
-]
+];
+
+export default howToUseApp;
