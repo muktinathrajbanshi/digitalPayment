@@ -279,14 +279,26 @@ header {
 }
 
 .our_services .our_services_number {
-  width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
   border: 2px solid var(--primary-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-items: center;
   font-size: 1.5rem;
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+.our_service_data {
+  padding-left: 2.1rem;
+}
+
+.our_services .our_service_data .main_hero_para {
+  margin-top: 1rem 0;
+  font-size: 1.2rem;
+  color: var(--text-color);
+  font-weight: lighter;
 }
 
 /* About Us Section Ends */
