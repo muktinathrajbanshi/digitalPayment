@@ -116,7 +116,7 @@ header {
 }
 
 .main-hero-para {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: var(--text-color);
   margin: 3rem 0 5rem 0;
   font-weight: lighter;
@@ -214,19 +214,12 @@ header {
 }
 
 .work_container_subdiv {
-  padding: 0 6rem;
+  padding: 0 4rem;
 }
 
 .work_container .sub_heading {
   font-size: 2rem;
   font-weight: normal;
-}
-
-.work_container .main_hero_para {
-  margin-top: 2rem;
-  font-size: 1.2rem;
-  color: var(--text-color);
-  font-weight: lighter;
 }
 
 .fontawesome_style {
@@ -302,14 +295,6 @@ header {
   padding-left: 2.1rem;
 }
 
-.our_services .our_service_data .main_hero_para {
-  margin-top: 1rem 0;
-  font-size: 1.2rem;
-  color: var(--text-color);
-  font-weight: lighter;
-  width: 70%;
-}
-
 /* 2nd section of about us */
 
 .our_services_rightside {
@@ -321,6 +306,62 @@ header {
 }
 
 /* About Us Section Ends */
+
+/* Service section starts */
+
+.service_main_container {
+  margin-top: 5rem;
+  padding: 5rem 0;
+}
+
+.service_main_container .main_heading {
+  margin: 3rem 0;
+}
+
+.work_container_subdiv {
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.16);
+}
+
+.work_container_subdiv:hover {
+  background-color: var(--bgcolor);
+  cursor: pointer;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+
+.work_container_subdiv:hover > .fontawesome_style {
+  background-color: #fff;
+}
+
+.work_container_subdiv .main-hero-para {
+  width: 100%;
+}
+
+.service_main_container .fontawesome_style {
+  text-align: left;
+  margin: 2rem 0;
+}
+
+@media (min-width: 1400px) {
+  .service_container .col-xxl-4 {
+    flex: 0 0 auto;
+    width: 30% !important;
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .service_container .col-lg-4 {
+    flex: 0 0 auto;
+    width: 30% !important;
+    margin: 2.5rem auto;
+  }
+}
+
+/* Service section ends */
 
 /* responsive media queries */
 

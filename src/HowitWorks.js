@@ -21,7 +21,7 @@ const HowitWorks = () => {
                                 <div className="col-12 col-lg-4 text-center work_container_subdiv">
                                     <i class={`fontawesome_style ${logo}`}></i>
                                     <h2 className="sub_heading">{ title }</h2>
-                                    <p className="main_hero_para w-100">
+                                    <p className="main-hero-para w-100">
                                     { info }
                                     </p>
                                 </div>

@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <>
       <section className="service_main_container">
-        <div className="container service_center">
+        <div className="container service_container">
             <h1 className="main_heading text-center fw-bold">How to send money</h1>
             <div className="row">
             {
@@ -18,9 +18,9 @@ const Services = () => {
                         <>
                          
                             <div className="col-12 col-lg-4 col-xxl-4 work_container_subdiv" key={id}>
-                                <i className="fontawesome_style "></i>
-                                <h2 className="sub_heading">Register for free.</h2>
-                                <p>Register for free to create your account, access exclusive features, manage your profile, and start using our services without any cost or commitment.</p>
+                                <i className={`fontawesome_style ${logo}  `}></i>
+                                <h2 className="sub_heading">{title}</h2>
+                                <p className="main-hero-para">{info}</p>
                             </div>
                        
                         </>
