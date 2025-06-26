@@ -116,9 +116,9 @@ header {
 }
 
 .main-hero-para {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: var(--text-color);
-  margin: 3rem 0 5rem 0;
+  /* margin: 3rem 0 5rem 0; */
   font-weight: lighter;
   width: 75%;
 }
@@ -303,6 +303,7 @@ header {
 
 .our_services_rightside_content {
   padding-left: 12rem;
+  height: 75%;
 }
 
 /* About Us Section Ends */
@@ -318,11 +319,11 @@ header {
   margin: 3rem 0;
 }
 
-.work_container_subdiv {
+.service_main_container .work_container_subdiv {
   box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.16);
 }
 
-.work_container_subdiv:hover {
+.service_main_container .work_container_subdiv:hover {
   background-color: var(--bgcolor);
   cursor: pointer;
   transition: all 0.3s linear;
@@ -332,11 +333,11 @@ header {
   -o-transition: all 0.3s linear;
 }
 
-.work_container_subdiv:hover > .fontawesome_style {
+.service_main_container .work_container_subdiv:hover > .fontawesome_style {
   background-color: #fff;
 }
 
-.work_container_subdiv .main-hero-para {
+.service_main_container .work_container_subdiv .main-hero-para {
   width: 100%;
 }
 
