@@ -1,24 +1,23 @@
 import React from 'react'
-import Navbar from './navbar';
-import Header from './Header';
-import HowitWorks from './HowitWorks';
-import Aboutus from './Aboutus';
-import Services from './Services';
-import Contact from './Contact';
-import Footer from './Footer';
+import Home from './Home';
+import { Route, Switch } from "react-router-dom";
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Service from './pages/Service';
+import Error from './pages/Error';
 
 const App = () => {
   return (
     <>
-      <Navbar />
-      <Header />
-      <HowitWorks />
-      <Aboutus />
-      <Services />
-      <Contact />
-      <Footer />
+      <Switch>
+      <Route exact path="/" component={Home}></Route>
+      <Route path="/about" component={About}></Route>
+      <Route path="/contact" component={Contact}></Route>
+      <Route path="/service" component={Service}></Route>
+      <Route path="/error" component={Error}></Route>
+      </Switch>
     </>
-  )
-}
+  );
+};
 
 export default App;
