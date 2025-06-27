@@ -1,9 +1,14 @@
 import React from 'react';
+import Navbar from '../navbar';
+import Aboutus from '../Aboutus';
+import Footer from '../Footer';
 
 const About = () => {
   return (
     <>
-      <h1>About</h1>
+      <Navbar />
+      <Aboutus />
+      <Footer />
     </>
   );
 };

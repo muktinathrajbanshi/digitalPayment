@@ -4,7 +4,7 @@ import Header from './Header';
 import HowitWorks from './HowitWorks';
 import Aboutus from './Aboutus';
 import Services from './Services';
-import Contacts from './Contacts';
+import Contacts from './Contact';
 import Footer from './Footer';
 
 const Home = () => {
