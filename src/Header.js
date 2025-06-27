@@ -24,7 +24,7 @@ const Header = () => {
                 {/* main header right */}
                 <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center main-herosection-images">
                     <img src="./images/dmark.jpg" alt="heroimg" className="img-fluid" />
-                    <img src="./images/hey.jpg" alt="heroimg" className="img-fluid main-hero-img2" />
+                    <img src="./images/hey.png" alt="heroimg" className="img-fluid main-hero-img2" />
                 </div>
             </div>
         </section>

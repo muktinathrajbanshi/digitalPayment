@@ -10,7 +10,7 @@ const Aboutus = () => {
       <div className="conatiner mb-5">
         <div className="row">
           <div className="col-12 col-lg-5 text-center our_service_leftside_img">
-            <img src="./images/dmark.jpg" alt="aboutUsImg" />
+            <img src="./images/about.webp" alt="aboutUsImg" />
           </div>
           {/* 1st section right side */}
           <div className="col-12 col-lg-7 our_services_list">

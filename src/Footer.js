@@ -26,7 +26,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div className="col-6 col-lg-3">
-                                <h2>Company</h2>
+                                <h2>Support</h2>
                                 <ul>
                                     <li>
                                         <a href="#">About</a>
@@ -43,7 +43,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div className="col-6 col-lg-3">
-                                <h2>Company</h2>
+                                <h2>Services</h2>
                                 <ul>
                                     <li>
                                         <a href="#">About</a>
@@ -60,22 +60,34 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div className="col-6 col-lg-3">
-                                <h2>Company</h2>
-                                <ul>
-                                    <li>
-                                        <a href="#">About</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">About</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">About</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">About</a>
-                                    </li>
-                                </ul>
+                                <h2>Follow Us</h2>
+                                <div className="row">
+                                    <div className="col-3 mx-auto">
+                                        <a href="">
+                                            <i className="fab fa-facebook-f fontawesome_style"></i>
+                                        </a>
+                                    </div>
+                                    <div className="col-3 mx-auto">
+                                        <a href="https://www.instagram.com/muktinath_rajbanshi/" target="_blank">
+                                            <i className="fab fa-instagram fontawesome_style"></i>
+                                        </a>
+                                    </div>
+                                    <div className="col-3 mx-auto">
+                                        <a href="https://www.youtube.com/@muktinathrajbanshi219" target="_blank">
+                                            <i className="fab fa-youtube fontawesome_style"></i>
+                                        </a>
+                                    </div>
+                                    <div className="col-3 mx-auto">
+                                        <a href="https://x.com/@muktinathrajba2" target="_blank ">
+                                            <i className="fab fa-twitter fontawesome_style"></i>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
+                        </div>
+                        <hr />
+                        <div className="mt-5">
+                            <p className="main-hero-para text-center w-100">Copyright @ 2025 MuktiPay. All rights reserved.</p>
                         </div>
                     </div>
                 </div>
