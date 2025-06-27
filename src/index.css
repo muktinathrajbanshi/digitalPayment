@@ -370,6 +370,10 @@ header {
   margin: 15rem 0;
 }
 
+.contact_leftside .main-hero-para {
+  margin: 2rem 0;
+}
+
 .contact_leftside img {
   min-width: 80%;
   max-height: 30rem;
