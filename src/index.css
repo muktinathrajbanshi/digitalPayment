@@ -669,4 +669,23 @@ footer .main-hero-para {
   .service_main_container .main_heading {
     margin: -3rem 0 0 0;
   }
+
+  /* footer css style */
+
+  .contactus_section {
+    margin: 5rem 0;
+  }
+
+  .contact_rightside {
+    margin-top: 5rem;
+  }
+
+  .contact_rightside form .main-hero-para {
+    font-size: 1.3rem;
+    color: var(--text-color);
+    margin: 0;
+    font-weight: lighter;
+    width: 98%;
+    padding: 0px 1rem;
+  }
 }
