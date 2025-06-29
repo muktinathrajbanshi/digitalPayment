@@ -6,7 +6,7 @@ const Header = () => {
       <header>
         <section className="container main-hero-container">
             <div className="row">
-                <div className="col-12 col-lg-6 header-left-side d-flex justify-content-center flex-column align-items-start">
+                <div className="col-12 col-lg-6 header-left-side d-flex justify-content-center flex-column align-items-start order-lg-first order-last">
                     <h1 className="display-2">Online Payment Made <br /> Easy For You.</h1>
                     <p className="main-hero-para">
                         hello this is one of the most important website for digital payment system through consumer to buyer and buyer to seller.
@@ -22,7 +22,7 @@ const Header = () => {
                     </div>
                 </div>
                 {/* main header right */}
-                <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center main-herosection-images">
+                <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center main-herosection-images order-md-first order-sm-first">
                     <img src="./images/dmark.jpg" alt="heroimg" className="img-fluid" />
                     <img src="./images/hey.png" alt="heroimg" className="img-fluid main-hero-img2" />
                 </div>
