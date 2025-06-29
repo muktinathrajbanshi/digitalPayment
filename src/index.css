@@ -577,15 +577,12 @@ footer .main-hero-para {
   /* main hero container style */
   .main-hero-container h1 {
     font-size: 2.5rem;
-    /* margin-left: 3rem;
-    margin-top: -4rem; */
   }
 
   .main-hero-para {
     font-size: 1.5rem;
     padding-right: 1rem;
     width: 100%;
-    /* margin-left: 3rem; */
     margin: 2.5rem 0;
   }
 
@@ -605,7 +602,64 @@ footer .main-hero-para {
     margin-top: 0rem;
   }
 
-  .input-group-button {
+  .header-right-side .main-hero-img2 {
+    position: absolute;
+    width: 40%;
+    height: 35%;
+    left: 50%;
+    top: -2%;
+    box-shadow: 0.8px 0rem 0.8rem rgb(0 0 0 / 25%);
+  }
+
+  .input-group .input-group-button {
+    right: 26%;
     width: 27%;
+  }
+
+  .work_container {
+    width: 80vw;
+    padding: 5rem 1rem;
+  }
+
+  .work_container .main-heading {
+    font-size: 2.7rem;
+    font-weight: bolder;
+    margin-bottom: 3rem;
+    word-spacing: 0rem;
+  }
+
+  .work_container_subdiv {
+    padding: 0 0rem;
+  }
+
+  /* how to use working */
+  .our_services .our_services_list {
+    margin-left: -9rem;
+  }
+
+  .our_services_rightside_img {
+    margin-left: -9rem;
+    text-align: center;
+  }
+
+  /* our service */
+  .our_services img {
+    width: 120%;
+    height: 100%;
+    margin-left: -11.5rem;
+  }
+
+  .our_services .our_service_leftside_img img {
+    margin-top: 0;
+  }
+
+  .service_container .work_container_subdiv {
+    padding: 0 2rem;
+    margin: 2rem auto;
+  }
+
+  .service_container .main-heading {
+    margin: 5rem auto 0 auto;
+    font-weight: bolder;
   }
 }
