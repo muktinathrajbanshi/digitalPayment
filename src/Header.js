@@ -8,9 +8,8 @@ const Header = () => {
             <div className="row">
                 <div className="col-12 col-lg-6 header-left-side d-flex justify-content-center flex-column align-items-start order-lg-first order-last">
                     <h1 className="display-2">Online Payment Made <br /> Easy For You.</h1>
-                    <p className="main-hero-para">
-                        hello this is one of the most important website for digital payment system through consumer to buyer and buyer to seller.
-                        Most of the individuals today they used online transaction system. Thus this system is useful for everyone.
+                    <p className="main-hero-para headerok">
+                        This is one of the most important websites for digital payment systems, enabling secure and seamless transactions between consumers and sellers. As most individuals now prefer online payments, this system proves to be essential and beneficial for everyone.
                     </p>
                     <h3>Get early access for you</h3>
                     <div className="input-group mt-3">

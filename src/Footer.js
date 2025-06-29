@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Footer = () => {
+    const DateData = new Date().getFullYear();
   return (
     <>
         <footer>
@@ -12,16 +13,16 @@ const Footer = () => {
                                 <h2>Company</h2>
                                 <ul>
                                     <li>
-                                        <a href="#">About</a>
+                                        <a href="#">F1soft</a>
                                     </li>
                                     <li>
-                                        <a href="#">About</a>
+                                        <a href="#">Leapfrog</a>
                                     </li>
                                     <li>
-                                        <a href="#">About</a>
+                                        <a href="#">Webpal</a>
                                     </li>
                                     <li>
-                                        <a href="#">About</a>
+                                        <a href="#">SoftNEP</a>
                                     </li>
                                 </ul>
                             </div>
@@ -29,16 +30,16 @@ const Footer = () => {
                                 <h2>Support</h2>
                                 <ul>
                                     <li>
-                                        <a href="#">About</a>
+                                        <a href="#">Self-Service</a>
                                     </li>
                                     <li>
-                                        <a href="#">About</a>
+                                        <a href="#">Help Desk</a>
                                     </li>
                                     <li>
-                                        <a href="#">About</a>
+                                        <a href="#">Technical Support</a>
                                     </li>
                                     <li>
-                                        <a href="#">About</a>
+                                        <a href="#">Expert Support</a>
                                     </li>
                                 </ul>
                             </div>
@@ -46,16 +47,16 @@ const Footer = () => {
                                 <h2>Services</h2>
                                 <ul>
                                     <li>
-                                        <a href="#">About</a>
+                                        <a href="#">SaaS</a>
                                     </li>
                                     <li>
-                                        <a href="#">About</a>
+                                        <a href="#">Email Services</a>
                                     </li>
                                     <li>
-                                        <a href="#">About</a>
+                                        <a href="#">Monitoring</a>
                                     </li>
                                     <li>
-                                        <a href="#">About</a>
+                                        <a href="#">Network Security</a>
                                     </li>
                                 </ul>
                             </div>
@@ -87,7 +88,7 @@ const Footer = () => {
                         </div>
                         <hr />
                         <div className="mt-5">
-                            <p className="main-hero-para text-center w-100">Copyright @ 2025 MuktiPay. All rights reserved.</p>
+                            <p className="main-hero-para text-center w-100">Copyright @ {DateData} MuktiPay. All rights reserved.</p>
                         </div>
                     </div>
                 </div>

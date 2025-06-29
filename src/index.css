@@ -123,6 +123,10 @@ header {
   width: 75%;
 }
 
+.main-hero-para.headerok {
+  margin: 3rem 0 5rem 0;
+}
+
 .main-hero-container h3 {
   font-weight: lighter;
 }
@@ -584,6 +588,10 @@ footer .main-hero-para {
     padding-right: 1rem;
     width: 100%;
     margin: 2.5rem 0;
+  }
+
+  .main-hero-para.headerok {
+    margin: 3rem 0 2.5rem 0;
   }
 
   .main-hero-container .header-left-side {
