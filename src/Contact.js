@@ -1,6 +1,32 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Contact = () => {
+
+    const [userData, setUserData] = useState({
+        firstName: "",
+        lastName: "",
+        phone: "",
+        email: "",
+        address: "",
+        message: "",
+    });
+
+    let name, value;    
+    const postUserData = (event) => {
+        name = event.target.name;
+        value = event.target.value;
+
+        setUserData({...userData, [name]:value});
+
+    };
+
+    //connect with firebase
+    const submitData = async (event) => {
+        event.preventDefault();
+        fetch("https://reactwebsite-41216-default-rtdb.firebaseio.com/userDataRecords.json");
+
+    }
+
   return (
     <>
       <section className="contactus_section">
@@ -22,19 +48,23 @@ const Contact = () => {
                                         <div className="col-12 col-lg-6 contact_input_field">
                                             <input 
                                             type="text" 
-                                            name=""
+                                            name="firstName"
                                              id="" 
                                              className="form-control"
-                                            placeholder="First Name" 
+                                            placeholder="First Name"
+                                            value={userData.firstName}
+                                            onChange={postUserData} 
                                             />
                                         </div>
                                          <div className="col-12 col-lg-6 contact_input_field">
                                             <input 
                                             type="text" 
-                                            name=""
+                                            name="lastName"
                                              id="" 
                                              className="form-control"
                                             placeholder="Last Name" 
+                                            value={userData.firstName}
+                                            onChange={postUserData}
                                             />
                                         </div>
                                     </div>
@@ -42,19 +72,23 @@ const Contact = () => {
                                         <div className="col-12 col-lg-6 contact_input_field">
                                             <input 
                                             type="text" 
-                                            name=""
+                                            name="phone"
                                              id="" 
                                              className="form-control"
-                                            placeholder="Phone Number" 
+                                            placeholder="Phone Number"
+                                            value={userData.phone}
+                                            onChange={postUserData} 
                                             />
                                         </div>
                                          <div className="col-12 col-lg-6 contact_input_field">
                                             <input 
                                             type="text" 
-                                            name=""
+                                            name="email"
                                              id="" 
                                              className="form-control"
                                             placeholder="Email ID" 
+                                            value={userData.email}
+                                            onChange={postUserData}
                                             />
                                         </div>
                                     </div>
@@ -62,10 +96,12 @@ const Contact = () => {
                                         <div className="col-12 contact_input_field">
                                             <input 
                                             type="text" 
-                                            name="" 
+                                            name="address" 
                                             id="" 
                                             className="form-control"
-                                            placeholder="Add Address" 
+                                            placeholder="Add Address"
+                                            value={userData.address}
+                                            onChange={postUserData}
                                             />
                                         </div>
                                     </div>
@@ -73,10 +109,12 @@ const Contact = () => {
                                         <div className="col-12">
                                             <input 
                                             type="text" 
-                                            name="" 
+                                            name="message" 
                                             id="" 
                                             className="form-control"
-                                            placeholder="Enter Your Message"    
+                                            placeholder="Enter Your Message"
+                                            value={userData.message}
+                                            onChange={postUserData}
                                             />
                                         </div>
                                     </div>
@@ -94,7 +132,8 @@ const Contact = () => {
                                             email address or phone number above
                                         </label>
                                     </div>
-                                <button type="submit" className="btn btn-style w-100">
+                                <button type="submit" className="btn btn-style w-100"
+                                onClick={submitData}>
                                     Submit
                                 </button>
                             </form>
