@@ -637,15 +637,10 @@ footer .main-hero-para {
     margin-left: -9rem;
   }
 
-  .our_services_rightside_img {
-    margin-left: -9rem;
-    text-align: center;
-  }
-
   /* our service */
   .our_services img {
     width: 120%;
-    height: 100%;
+    height: 75%;
     margin-left: -11.5rem;
   }
 
@@ -661,5 +656,17 @@ footer .main-hero-para {
   .service_container .main-heading {
     margin: 5rem auto 0 auto;
     font-weight: bolder;
+  }
+
+  .our_services_rightside_content {
+    padding-left: 0rem;
+    margin-left: -9rem;
+  }
+
+  .our_service_rightside_img {
+    text-align: center;
+  }
+  .service_main_container .main_heading {
+    margin: -3rem 0 0 0;
   }
 }
