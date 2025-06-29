@@ -23,9 +23,45 @@ const Contact = () => {
     //connect with firebase
     const submitData = async (event) => {
         event.preventDefault();
-        fetch("https://reactwebsite-41216-default-rtdb.firebaseio.com/userDataRecords.json");
+        const { firstName, lastName, phone, email, address, message} =userData;
 
-    }
+        if(firstName && lastName && phone && email && address && message) {
+
+        
+        const res = fetch("https://reactwebsite-41216-default-rtdb.firebaseio.com/userDataRecords.json",
+            {
+                method: "POST",
+                Headers: {
+                   "Content-Type" : "application/json", 
+                }, 
+                body:JSON.stringify({
+                    firstName, 
+                    lastName, 
+                    phone, 
+                    email, 
+                    address, 
+                    message,
+                }), 
+            }
+        );
+        
+        if (res) {
+            setUserData({
+                firstName: "",
+                lastName: "",
+                phone: "",
+                email: "",
+                address: "",
+                message: "",
+            });
+            alert("Data Stored")
+        } else {
+            alert("Plz fill the Data")
+        }
+       }else {
+            alert("Plz fill the Data")
+        }
+    };
 
   return (
     <>
@@ -63,7 +99,7 @@ const Contact = () => {
                                              id="" 
                                              className="form-control"
                                             placeholder="Last Name" 
-                                            value={userData.firstName}
+                                            value={userData.lastName}
                                             onChange={postUserData}
                                             />
                                         </div>
